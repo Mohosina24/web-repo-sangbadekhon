@@ -1,0 +1,478 @@
+@import url('https://fonts.maateen.me/adorsho-lipi/font.css');
+@import url('https://fonts.maateen.me/charu-chandan-3d/font.css');
+@import url('https://fonts.maateen.me/apona-lohit/font.css');
+@import url('https://fonts.maateen.me/bangla/font.css');
+@import url('https://fonts.maateen.me/bensen/font.css');
+@import url('https://fonts.maateen.me/charukola-ultra-light/font.css');
+
+
+
+body{
+
+    overflow-x: hidden;
+    /*font-family: 'AdorshoLipi', Arial, sans-serif !important;*/
+    font-family: 'AponaLohit', Arial, sans-serif !important;
+    /*font-family: 'Bangla', Arial, sans-serif !important;*/
+
+    /*font-family: 'BenSen', Arial, sans-serif !important;*/
+}
+ h6:hover{
+      color: #0e75e5;
+  }
+h5:hover{
+    color: #0578f5;
+}
+footer p:hover{
+    color:black;
+}
+
+/*details page css*/
+.detailtitle{
+    font-size:40px;
+}
+.social-media-icon{
+    width:3%;
+    margin-left:10px;
+
+}
+.avatar{
+
+}
+/*header start */
+.btn{
+    background: linear-gradient(#1c8de3, #0f5ebd, #118eef);
+    color:white;
+
+}
+
+/*main color code*/
+.color-code{
+    background: linear-gradient(#1c8de3, #0f5ebd, #118eef);
+
+    /*background:black;*/
+}
+.color-code1{
+    color: #0f5ebd;
+}
+
+.btn:hover{
+    background-color: #1c8de3;
+    color:white;
+
+}
+.colorheading{
+    color: #0d7dd4;
+}
+
+
+.nav-link{
+    color:black;
+
+    transition:all 0.3s ;
+}
+
+.nav-link:hover{
+    /*border-bottom: 3px solid cadetblue;*/
+    background: linear-gradient(#1c8de3, #0f5ebd, #118eef);
+    color:white;
+
+    border-radius:5px ;
+
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler:focus{
+    box-shadow:none;
+}
+
+/*main are jonno css*/
+.arrow{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    padding:10px;
+    background-color: #0767af;
+}
+
+.bodar{
+    border-bottom:4px solid #0a67ad;
+}
+.bodar1{
+    border-top:4px solid #0a67ad;
+}
+/*footer css*/
+h2{
+    font-size:60px;
+    color: #fff;
+    /*font-family: 'CharuChandan3D', sans-serif;*/
+}
+.social-media{
+    width:40px;
+    height:40px;
+
+    padding:10px;
+    background-color: #110101;
+}
+.social-media:hover{
+    background-color: #0844f6;
+}
+
+/*foooter end*/
+
+
+
+.form-button:hover{
+    background-color: #0999b3;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media Query*/
+
+/*mobile are jonno*/
+@media screen and (min-width: 0px) and (max-width: 576px) {
+
+    h5{
+        font-size:15px;
+    }
+    p{
+        font-size:12px;
+    }
+    small{
+        font-size:12px;
+    }
+    .bodar{
+        border-bottom:4px solid #0a67ad;
+    }
+    .bodar1{
+        border-top:4px solid #0a67ad;
+    }
+    .bar svg{
+        width:30%;
+    }
+    .icon{
+        width:30%;
+    }
+    /*details page css*/
+    .detailtitle{
+        font-size:20px;
+    }
+    .social-media-icon{
+        width:6%;
+        margin-left:10px;
+
+    }
+
+    /*    main are jonno css*/
+    h6{
+        font-size:15px;
+    }
+    small{
+        font-size:12px;
+    }
+    p{
+        font-size:13px;
+    }
+    h5{
+        font-size:17px;
+    }
+    /*part1*/
+    .arrow{
+        margin-top:100px
+    }
+    .arrow{
+        width:40px;
+        height:40px;
+        border-radius:50%;
+        padding:10px;
+        background-color:#0767af;
+    }
+    /*    part4*/
+    .angal{
+        width:5%;
+    }
+
+    .social-media{
+        width:40px;
+        height:40px;
+
+        padding:10px;
+        background-color: #110101;
+    }
+    .social-media:hover{
+        background-color: #0844f6;
+    }
+
+
+    /*footer*/
+    .footertitle{
+        font-size:30px;
+    }
+    .footimg{
+        width:30%;
+    }
+
+
+}
+/*tab device*/
+@media screen and (min-width:577px) and (max-width:768px){
+
+    .bar svg{
+        width:40%;
+    }
+    .account{
+        font-size:15px;
+    }
+    .account1{
+        font-size:12px
+    }
+    .btn{
+        font-size: 2px;
+    }
+    .icon svg{
+        width:10%
+    }
+    .icon1 svg{
+        width:9%
+    }
+    /*details page css*/
+    .detailtitle{
+        font-size:30px;
+    }
+    .social-media-icon{
+        width:4%;
+        margin-left:10px;
+
+    }
+
+    /*    main are jonno css*/
+    h6{
+        font-size:15px;
+    }
+    small{
+        font-size:10px;
+    }
+    p{
+        font-size:15px;
+    }
+    h5{
+        font-size:17px;
+    }
+    /*    part 1*/
+
+    /*    part4*/
+    .angal{
+        width:5%;
+    }
+    .binodon{
+        font-size:30px;
+    }
+
+    /*    footer*/
+
+    .footimg{
+        width:20%;
+    }
+    .social-media{
+        width:30px;
+        height:30px;
+
+        padding:5px;
+        background-color: #110101;
+    }
+    .social-media:hover{
+        background-color: #0844f6;
+    }
+
+
+}
+/*md device are jonno*/
+@media screen and (min-width:769px) and (max-width:992px) {
+
+    .nav-link{
+        color:black;
+
+        transition:all 0.3s ;
+
+    }
+    .text1{
+        font-size:15px;
+    }
+
+    .nav-link:hover{
+        /*border-bottom: 3px solid cadetblue;*/
+        background: linear-gradient(#1c8de3, #0f5ebd, #118eef);
+        color:white;
+
+        border-radius:5px ;
+
+    }
+
+    .account{
+        font-size:6px;
+    }
+    .account1{
+        font-size:12px
+    }
+    .icon svg{
+        width:10%
+    }
+    .icon1 svg{
+        width:9%
+    }
+
+    /*nav text*/
+    /*main*/
+    h6{
+        font-size:15px;
+    }
+    small{
+        font-size:10px;
+    }
+    p{
+        font-size:12px;
+    }
+    h5{
+        font-size:17px;
+    }
+
+
+    /*    footer*/
+
+    .pic{
+        width:10%;
+    }
+    .social-media{
+        width:40px;
+        height:40px;
+
+        padding:10px;
+        background-color: #110101;
+    }
+    .social-media:hover{
+        background-color: #0844f6;
+    }
+
+}
+/*lg device are jonno*/
+@media screen and (min-width:993px) and (max-width:1200px) {
+
+    .nav-link{
+        color:black;
+
+        transition:all 0.3s ;
+    }
+
+    .nav-link:hover{
+        /*border-bottom: 3px solid cadetblue;*/
+        background: linear-gradient(#1c8de3, #0f5ebd, #118eef);
+        color:white;
+
+        border-radius:5px ;
+
+    }
+
+    .account{
+        font-size:15px;
+    }
+    .account1{
+        font-size:12px
+    }
+    .icon svg{
+        width:8%
+    }
+    .icon1 svg{
+        width:7%
+    }
+
+    .text1{
+        font-size:20px;
+    }
+}
+
+/*xl are jonno*/
+
+@media screen and (min-width:1201px) and (max-width:1400px) {
+    .nav-link{
+        color:black;
+
+        transition:all 0.3s ;
+    }
+
+    .nav-link:hover{
+        /*border-bottom: 3px solid cadetblue;*/
+        background: linear-gradient(#1c8de3, #0f5ebd, #118eef);
+        color:white;
+
+        border-radius:5px ;
+
+    }
+
+    .account{
+        font-size:18px;
+    }
+    .account1{
+        font-size:15px
+    }
+    .icon svg{
+        width:8%
+    }
+    .icon1 svg{
+        width:7%
+    }
+
+    .text1{
+        font-size:17px;
+    }
+
+
+}
+
+
+
+/*xxl are jonno */
+@media screen and (min-width: 1401px) {
+    .nav-link{
+        color:black;
+
+        transition:all 0.3s ;
+    }
+
+    .nav-link:hover{
+        /*border-bottom: 3px solid cadetblue;*/
+        background: linear-gradient(#1c8de3, #0f5ebd, #118eef);
+        color:white;
+
+        border-radius:5px ;
+
+    }
+
+    .account{
+        font-size:18px;
+    }
+    .account1{
+        font-size:15px
+    }
+    .icon svg{
+        width:8%
+    }
+    .icon1 svg{
+        width:7%
+    }
+
+    .text1{
+        font-size:17px;
+    }
+}
