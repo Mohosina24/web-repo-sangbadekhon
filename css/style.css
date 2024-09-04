@@ -1,20 +1,18 @@
-@import url('https://fonts.maateen.me/adorsho-lipi/font.css');
-@import url('https://fonts.maateen.me/charu-chandan-3d/font.css');
+/*@import url('https://fonts.maateen.me/adorsho-lipi/font.css');*/
+/*@import url('https://fonts.maateen.me/charu-chandan-3d/font.css');*/
 @import url('https://fonts.maateen.me/apona-lohit/font.css');
-@import url('https://fonts.maateen.me/bangla/font.css');
-@import url('https://fonts.maateen.me/bensen/font.css');
-@import url('https://fonts.maateen.me/charukola-ultra-light/font.css');
+/*@import url('https://fonts.maateen.me/bangla/font.css');*/
+/*@import url('https://fonts.maateen.me/bensen/font.css');*/
+/*@import url('https://fonts.maateen.me/charukola-ultra-light/font.css');*/
 
 
 
 body{
 
     overflow-x: hidden;
-    /*font-family: 'AdorshoLipi', Arial, sans-serif !important;*/
-    font-family: 'AponaLohit', Arial, sans-serif !important;
-    /*font-family: 'Bangla', Arial, sans-serif !important;*/
 
-    /*font-family: 'BenSen', Arial, sans-serif !important;*/
+    font-family: 'AponaLohit', Arial, sans-serif !important;
+
 }
  h6:hover{
       color: #0e75e5;
@@ -162,6 +160,9 @@ h2{
     .bar svg{
         width:30%;
     }
+    .navbar-toggler{
+        font-size: 15px;
+    }
     .icon{
         width:30%;
     }
@@ -171,7 +172,7 @@ h2{
     }
     .social-media-icon{
         width:6%;
-        margin-left:10px;
+
 
     }
 
@@ -218,7 +219,7 @@ h2{
 
     /*footer*/
     .footertitle{
-        font-size:30px;
+        font-size:20px;
     }
     .footimg{
         width:30%;
@@ -246,6 +247,12 @@ h2{
     }
     .icon1 svg{
         width:9%
+    }
+    .icon{
+        width:25%;
+    }
+    .navbar-toggler{
+        font-size: 18px;
     }
     /*details page css*/
     .detailtitle{
@@ -281,6 +288,9 @@ h2{
     }
 
     /*    footer*/
+    .footertitle{
+        font-size: 20px;
+    }
 
     .footimg{
         width:20%;
