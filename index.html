@@ -10,7 +10,14 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
+
+
+
+
+
+
+
+<header  class="">
     <!--    header start-->
     <section class="py-md-3 py-0">
         <div class="container-fluid">
@@ -112,10 +119,33 @@
         </div>
     </section>
 
-<!--    <hr class="d-md-block d-none"/>-->
+        <!--    main navber medium device projonto thik thakbe-->
+    <section id="navbar_top" class="bg-light shadow">
+        <nav class="navbar navbar-expand d-none d-md-block d-sm-none">
+            <div class="container-fluid">
+                <!-- Logo element to be shown when fixed -->
+                <a href="#" class="navbar-brand d-none" id="fixed-logo">
+                    <img class="w-50" src="imges/menulogo.jpg" alt="menuLogo" />
+                </a>
+                <ul class="navbar-nav gap-3 mx-auto">
+                    <li><a href="index.html" class="nav-link text1 fw-bold">প্রথম পাতা</a></li>
+                    <li><a href="rajniti.html" class="nav-link text1 fw-bold">রাজনীতি</a></li>
+                    <li><a href="bangladesh.html" class="nav-link text1 fw-bold">বাংলাদেশ</a></li>
+                    <li><a href="oporad.html" class="nav-link text1 fw-bold">অপরাধ</a></li>
+                    <li><a href="bisso.html" class="nav-link text1 fw-bold">বিশ্ব</a></li>
+                    <li><a href="banijjo.html" class="nav-link text1 fw-bold">বাণিজ্য</a></li>
+                    <li><a href="motamot.html" class="nav-link text1 fw-bold">মতামত</a></li>
+                    <li><a href="khela.html" class="nav-link text1 fw-bold">খেলা</a></li>
+                    <li><a href="jibonjapon.html" class="nav-link text1 fw-bold">জীবনযাপন</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+
     <!--    hidden navber-->
-    <secition class="">
-        <nav class="navbar d-md-none d-block bg-body-gray shadow">
+    <secition id="mobile-navber-top" class="">
+        <nav class="navbar  d-md-none d-block bg-white shadow">
             <div class="container-fluid">
                 <div class="row">
                     <div class="d-flex ">
@@ -127,9 +157,9 @@
                                 </span>
                             </a>
                         </div>
-                    <div class=" ">
-                        <img class="w-50 ms-5"  src="imges/headlogo.png" alt="">
-                    </div>
+                        <div class=" ">
+                            <img class="w-50 ms-5"  src="imges/headlogo.png" alt="">
+                        </div>
 
                         <div class=" ">
                             <button class="navbar-toggler border-0 color-code" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -161,7 +191,7 @@
                                 </div>
                             </div>
                         </div>
-                </div>
+                    </div>
                 </div>
 
 
@@ -172,39 +202,22 @@
 
 
 
-    <!--    main navber medium device projonto thik thakbe-->
 
-    <section class="bg-light  shadow">
-
-        <nav class="navbar navbar-expand d-none d-md-block d-sm-none  ">
-
-            <div class="container-fluid ">
-
-                <ul class="navbar-nav gap-3  mx-auto  " >
-                    <li><a href="index.html" class="nav-link  text1 fw-bold">প্রথম পাতা</a></li>
-                    <li><a href="rajniti.html" class="nav-link  text1 fw-bold">রাজনীতি</a></li>
-                    <li><a href="bangladesh.html" class="nav-link  text1  fw-bold">বাংলাদেশ</a></li>
-                    <li><a href="oporad.html" class="nav-link  text1  fw-bold">অপরাধ</a></li>
-                    <li><a href="bisso.html" class="nav-link  text1  fw-bold"> বিশ্ব</a></li>
-                    <li><a href="banijjo.html" class="nav-link  text1  fw-bold">বাণিজ্য</a></li>
-                    <li><a href="motamot.html" class="nav-link  text1  fw-bold"> মতামত</a></li>
-                    <li><a href="khela.html" class="nav-link text1  fw-bold">  খেলা</a></li>
-                    <li><a href="jibonjapon.html" class="nav-link  text1  fw-bold">  জীবনযাপন</a></li>
-                </ul>
-            </div>
-        </nav>
-    </section>
 
     <!--       nav section end-->
     <!--    header end-->
 </header>
 <!--main start-->
+
+
+
+
 <main>
     <!--    section one -->
     <section class=" py-4 ">
         <div class="container-fluid">
-            <div class="row pb-3 d-md-none d-block">
-                <div class="col ">
+            <div class="row pb-3 d-md-none d-block ">
+                <div class="col mt-5 ">
                     <div class="d-flex justify-content-between  bodar  ">
 
                         <h3 class="color-code1 fw-bolder">
@@ -1733,5 +1746,40 @@
     </div>
 </div>
 <script src="js/bootstrap.bundle.js"></script>
+
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function(){
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar_top');
+            const logo = document.getElementById('fixed-logo');
+            if (window.scrollY > 50) {
+                navbar.classList.add('fixed-top');
+                logo.classList.remove('d-none'); // Show the logo
+                // add padding top to show content behind navbar
+                const navbarHeight = document.querySelector('.navbar').offsetHeight;
+                document.body.style.paddingTop = navbarHeight + 'px';
+            } else {
+                navbar.classList.remove('fixed-top');
+                logo.classList.add('d-none'); // Hide the logo
+                // remove padding top from body
+                document.body.style.paddingTop = '0';
+            }
+        });
+    });
+    document.addEventListener("DOMContentLoaded", function(){
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('mobile-navber-top');
+
+            if (window.scrollY > 50) {
+                navbar.classList.add('fixed-top');
+
+                // add padding top to show content behind navbar
+                const navbarHeight = document.querySelector('.navbar').offsetHeight;
+                document.body.style.paddingTop = navbarHeight + 'px';
+            }
+        });
+    });
+
+</script>
 </body>
 </html>
